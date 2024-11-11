@@ -436,8 +436,9 @@ footer hr{
         margin: 0;
     }
     .productos{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
     }
     .contenedor-contacto{
         height: 825px;
